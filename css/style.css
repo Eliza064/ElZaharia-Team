@@ -138,6 +138,7 @@ body .cacaniu-bg {
 .service-item {
     box-shadow: 0 0 45px #EDEDED;
     transition: .5s;
+    min-height: 190px;
 }
 
 .about i,
@@ -150,7 +151,7 @@ body .cacaniu-bg {
 
 .service-item:hover {
     color: var(--light);
-    background: var(--primary) !important;
+    background: var(--secondary) !important;
 }
 
 .service-item:hover i {
@@ -198,7 +199,7 @@ body .cacaniu-bg {
     height: 55%;
     bottom: 0;
     left: 0;
-    background-color: var(--primary);
+    background-color: #e8b582;
     z-index: -1;
 }
 
